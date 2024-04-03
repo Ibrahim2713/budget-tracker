@@ -1,70 +1,58 @@
-# Getting Started with Create React App
+# Budget Tracker Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a simple budget tracker application built with React.js. It allows users to track their expenses and income, categorize transactions, and visualize their financial data.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- Add new transactions with a description, amount, and category.
+- Categorize transactions as income or expense.
+- View a list of all transactions with details.
+- Filter transactions by category or date range.
+- See a summary of total income, total expenses, and current balance.
+- Visualize financial data using charts and graphs.
+- Responsive design for use on desktop, tablet, and mobile devices.
 
-### `npm start`
+## Technologies Used
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- React.js: A JavaScript library for building user interfaces.
+- Chart.js: A JavaScript library for creating charts and graphs.
+- Material-UI: A popular React UI framework for designing responsive and customizable components.
+- LocalStorage: Used for storing transaction data locally on the user's device.
+- JWT (JSON Web Token): Used to authenticate user
+ - SQLite: A lightweight relational database management system used for storing transaction data locally on the user's device.
+- Express.js: A fast, unopinionated, minimalist web framework for Node.js used for building the backend API.
+- Node.js: A JavaScript runtime environment that executes JavaScript code outside of a web browser, commonly used for building server-side applications.
+- RESTful API: An architectural style for building web services that uses HTTP methods and follows representational state transfer (REST) principles for communication between client and server. 
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Installation
 
-### `npm test`
+1. Clone the repository:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+   ```bash
+   git clone https://github.com/Ibrahim2713/budget-tracker-app.git
 
-### `npm run build`
+   
+Navigate to the project directory:
+cd budget-tracker-app
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+npm install
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+npm start
+Open your web browser and navigate to http://localhost:3000 to view the application.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Usage
+Add new transactions by entering a description, amount, and category, then click "Add Transaction".
+Click on a transaction to edit or delete it.
+Use the filter options to view transactions by category or date range.
+View the summary section to see total income, total expenses, and current balance.
+Explore the charts and graphs to visualize your financial data.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Contribution
+Contributions are welcome! If you have any suggestions, feature requests, or bug reports, please create an issue or submit a pull request.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
